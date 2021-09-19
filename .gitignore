@@ -1,2 +1,2 @@
 git rm --cached .DS_Store
-git rm --cached .vscode
+git rm --cached .vscode/cisco-vscode.xdev-polaris-builder/
