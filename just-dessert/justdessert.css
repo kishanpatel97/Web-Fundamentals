@@ -1,0 +1,204 @@
+/* PRESETS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+a {
+    color: #085394;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+}
+
+/* TOP BAR */
+.top {
+    background-color: #333333;
+    height: 60px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dessert-text {
+    color: darkorange;
+}
+
+.nav-title {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.login {
+    background-color: #2b78e4;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.join {
+    background-color: darkorange;
+    color: rgb(45, 45, 45);
+}
+
+/* SEARCH BAR */
+.middle {
+    background-color: rgb(255, 202, 137);
+    height: 150px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    border-radius: 20px;
+    border: black solid 1px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type=text]{
+    width:300px;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    height: 100%;
+    margin: 0px;
+}
+
+.search-bar button{
+    background-color: #0074D9;
+    color: #f2f2f2;
+    border: none;
+    box-shadow: none;
+    padding: 12px 12px;
+    height: 100%;
+}
+
+.dessert-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-img {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+/* CONTENT */
+.row {
+    display: flex;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-1 {
+    flex: 1;
+    margin: 0px 30px;
+}
+
+.orange-tart {
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.orange-tart h2 {
+    font-size: 1.7rem;
+    color: #085394;
+    text-align: center;
+}
+
+.orange-tart-img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.macarons, .creme-brulee {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.macaron-img, .creme-brulee-img {
+    width: 100%;
+}
+.col h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.heart-button {
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.heart-img {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+.text {
+    flex: 3;
+    font-size: 1.4rem;
+    flex-direction: column;
+}
+
+.text-parent {
+    display: inline-flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.recipe {
+    text-align: center;
+    font-size: 1.2em;
+}

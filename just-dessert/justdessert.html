@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Dessert</title>
+    <link rel="stylesheet" href="justdessert.css">
+    <script src="justdessert.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="top">
+            <h1 class="nav-title">Just<span class="dessert-text">Dessert</span></h1>
+            <div class="nav-buttons">
+                <button class="btn join" onclick="join(this)">Join</button>
+                <button class="btn login">Login</button>
+            </div>
+        </div>
+
+        <div class="middle row">
+            <form class="search-bar">
+                <input id="search" type="text" placeholder="SEARCH" name="search">
+                <button type="submit" class="btn go" onclick="go()">GO</button>
+            </form>
+            <div class="flex-2 dessert-icons">
+                <div class="icon-text">
+                    <img src="imgs/cake.png" alt="cake" class="icon-img">
+                    <p>Cake</p>
+                </div>
+                <div class="icon-text">
+                    <img src="imgs/cookie.png" alt="cookie" class="icon-img">
+                    <p>Cookie</p>
+                </div>
+                <div class="icon-text">
+                    <img src="imgs/ice-cream.png" alt="ice-cream" class="icon-img">
+                    <p>Ice Cream</p>
+                </div>
+                <div class="icon-text">
+                    <img src="imgs/pie.png" alt="pie" class="icon-img">
+                    <p>Pie</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="flex-2">
+                <div class="orange-tart">
+                    <h2>Recipe of the Day</h2>
+                    <img src="imgs/orange-tart.jpg" alt="orange-tart" class="orange-tart-img">
+                    <div class="text-parent">
+                        <div class="text">
+                            <p>Orange Tea Jelly Tart</p>
+                            <p>By: <a href="#">yuripiano</a></p>
+                        </div>
+                        <div class="row">
+                            <button value=68 class="heart-button" onclick="increment(this)">
+                                <img src="imgs/heart.png" alt="heart" class="heart-img">
+                                <p class="likes"> 68</p>
+                            </button>
+                        </div>
+                    </div>
+                    <a class="recipe" href="#">See Full Recipe</a>
+                </div>
+            </div>
+            <div class="flex-1">
+                <div class="col">
+                    <h2>Recommended for you:</h2>
+                    <div class="macarons">
+                        <img src="imgs/macarons.jpg" alt="macarons" class="macaron-img">
+                        <div class="text-parent">
+                            <div class="text">
+                                <p>Macarons</p>
+                                <p>By: <a href="#">EmilieW</a></p>
+                            </div>
+                            <div class="row">
+                                <button value=212 class="heart-button" onclick="increment(this)">
+                                    <img src="imgs/heart.png" alt="heart" class="heart-img">
+                                    <p class="likes"> 212</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="creme-brulee">
+                        <img src="imgs/creme-brulee.jpg" alt="creme-brulee" class="creme-brulee-img">
+                        <div class="text-parent">
+                            <div class="text">
+                                <p>Crème Brûlée</p>
+                                <p>By: <a href="#">MarisaG</a></p>
+                            </div>
+                            <div class="row">
+                                <button value=33 class="heart-button" onclick="increment(this)">
+                                    <img src="imgs/heart.png" alt="heart" class="heart-img">
+                                    <p class="likes"> 33</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
